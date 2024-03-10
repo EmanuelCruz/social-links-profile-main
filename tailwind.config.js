@@ -1,6 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./**/*.html"],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        "white-custom": "hsl(0, 0%, 100%)",
+        "grey-custom": "hsl(0, 0%, 20%)",
+        "dark-grey-custom": "hsl(0, 0%, 12%)",
+        "off-black-custom": "hsl(0, 0%, 8%)",
+      },
+    },
+  },
   plugins: ["prettier-plugin-tailwindcss"],
 };
