@@ -14,27 +14,64 @@
     <link rel="stylesheet" href="./src/index.css" />
 
     <title>Frontend Mentor | Social links profile</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <!-- <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style> -->
   </head>
-  <body class="">
-    Jessica Randall London, United Kingdom "Front-end developer and avid
-    reader." GitHub Frontend Mentor LinkedIn Twitter Instagram
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+  <body class="container mx-auto bg-off-black-custom px-6 py-28">
+    <!-- Card -->
+    <main class="bg-dark-grey-custom p-6 rounded-xl">
+      <!-- User Avatar -->
+      <header class="flex flex-col gap-6">
+        <!-- flex flex-col gap-6 -->
+        <figure class="mx-auto bg- rounded-full w-24 h-24 overflow-hidden">
+          <img src="./assets/images/avatar-jessica.jpeg" alt="" class="" />
+        </figure>
+        <!-- User Profile -->
+        <section class="flex flex-col gap-2 text-center">
+          <h1 class="text-2xl font-semibold">Jessica Randall</h1>
+          <p class="text-sm text-green-custom font-semibold">
+            London, United Kingdom
+          </p>
+        </section>
+        <!-- Job Description -->
+        <section>
+          <p class="text-sm text-center">
+            "Front-end developer and avid reader."
+          </p>
+        </section>
+      </header>
+      <!-- Social Network -->
+      <section class="flex flex-col gap-4 mt-6">
+        <a
+          class="bg-grey-custom rounded-md text-center py-3 font-bold text-sm hover:bg-green-custom hover:text-off-black-custom"
+          href="http://github.com/"
+          >GitHub</a
+        >
+        <a
+          class="bg-grey-custom rounded-md text-center py-3 font-bold text-sm hover:bg-green-custom hover:text-off-black-custom"
+          href="https://www.frontendmentor.io/"
+          >Frontend Mentor</a
+        >
+        <a
+          class="bg-grey-custom rounded-md text-center py-3 font-bold text-sm hover:bg-green-custom hover:text-off-black-custom"
+          href="https://www.linkedin.com/"
+          >LinkedIn</a
+        >
+        <a
+          class="bg-grey-custom rounded-md text-center py-3 font-bold text-sm hover:bg-green-custom hover:text-off-black-custom"
+          href="https://twitter.com/"
+          >Twitter</a
+        >
+        <a
+          class="bg-grey-custom rounded-md text-center py-3 font-bold text-sm hover:bg-green-custom hover:text-off-black-custom"
+          href="https://www.instagram.com/"
+          >Instagram</a
+        >
+      </section>
+      <!-- <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div> -->
+    </main>
   </body>
 </html>

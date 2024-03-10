@@ -23,5 +23,6 @@
 @layer base {
   html {
     @apply font-primary;
+    @apply text-white-custom;
   }
 }
