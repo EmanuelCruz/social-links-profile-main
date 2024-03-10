@@ -10,6 +10,9 @@ export default {
         "dark-grey-custom": "hsl(0, 0%, 12%)",
         "off-black-custom": "hsl(0, 0%, 8%)",
       },
+      fontFamily: {
+        primary: "inter",
+      },
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],
