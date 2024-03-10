@@ -10,6 +10,9 @@ export default {
         "dark-grey-custom": "hsl(0, 0%, 12%)",
         "off-black-custom": "hsl(0, 0%, 8%)",
       },
+      fontSize: {
+        paragraph: "14px",
+      },
       fontFamily: {
         primary: "inter",
       },
