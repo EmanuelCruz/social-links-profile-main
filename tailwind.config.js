@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "green-custom": "hsl(75, 94%, 57%)",
+        "green-custom-click": "hsla(75, 94%, 57%, 0.678)",
         "white-custom": "hsl(0, 0%, 100%)",
         "grey-custom": "hsl(0, 0%, 20%)",
         "dark-grey-custom": "hsl(0, 0%, 12%)",
